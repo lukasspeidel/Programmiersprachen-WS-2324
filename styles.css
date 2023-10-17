@@ -1,0 +1,15 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(29, 80, 3);
+}
+
+h3 {
+    color: rgb(66, 173, 12);
+}
+
+header {
+    background-color: bisque;
+}
