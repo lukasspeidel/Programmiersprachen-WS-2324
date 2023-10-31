@@ -1,16 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif
 }
 
 h1{
     font-weight: lighter;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.3em;
 }
 
 h2{
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h3{
     color:red;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
 }
