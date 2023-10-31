@@ -1,42 +1,119 @@
-.all{
+.all {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
     padding: 1rem;
     width: 500px;
     height: 700px;
-    background-color: #000000;
-}
-.banner{
-    background-color: #d4c7c7;
-    display: grid;
-    grid-template-rows: 80px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: #cfcfcf;
 }
 
-.dinotype{
+.banner {
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.dinotype {
+    font-size: 3rem;
+    padding: 10px;  
+    background-color: aquamarine;
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-.name{
+.name {
+    font-size: 3rem;
+    padding: 10px;  
+    border: aquamarine solid 2px;
     grid-column-start: 2;
     grid-column-end: 7;
 }
 
-.dinopicture{
+.dinopicture {
     background-color: aqua;
     margin-top: 1rem;
     height: 300px;
 }
 
-.dinoattributes{
+.dinoattributes {
     margin-top: 1rem;
     background-color: #884545;
     display: grid;
     grid-template-rows: 100px;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.dinotypebig{
+.dinotypebig {
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
+.dimensions {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.weight {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.dinodiet {
+    margin-top: 1rem;
+    background-color: #31a01d;
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.dinodiet .item1 {
+    border: aquamarine solid 2px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.dinodiet .item2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.dinodiet .item3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.dinodiet .item4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.dinofight {
+    margin-top: 1rem;
+    background-color: #3341ba;
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.dinofight .item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.dinofight .item2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.dinofight .item3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.dinofight .item4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
