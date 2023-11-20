@@ -1,4 +1,4 @@
-.all {
+.whole_card {
     width: 400px;
     height: 600px;
     padding: 1rem;
@@ -55,8 +55,8 @@
 }
 
 
-.attributes_icon_conatiner{
-    width: 100%;
-    height: 15%;
+.attributes_icon_container{
+    width: 27.8%;
+    height: 50%;
     background-color: blueviolet;
 }
