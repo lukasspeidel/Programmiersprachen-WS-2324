@@ -38,7 +38,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 7;
+    grid-row-end: 6;
 }
 
 .attributes {
@@ -56,7 +56,15 @@
 
 
 .attributes_icon_container{
-    width: 27.8%;
+    width: 100%;
     height: 50%;
     background-color: blueviolet;
+}
+
+.facts {
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
 }
