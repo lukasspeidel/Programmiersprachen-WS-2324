@@ -1,4 +1,31 @@
-const data = [
+/*
+the data provided here is based on estimations and assumptions.
+ 
+"name": <name of the dinosaur that i will give to you>,
+"group": <group name of the dinosaur that i will give to you>,
+"group_letter": <group letter that i will give to you>,
+"card_number": <number of the dinosaur within the group (1-4)>,
+"number_eggs": <number of eggs in a nest>,
+"territorial_range":	<territorial range in km²>,
+"iq": <guess the iq of the dinosaur. argentinosaurus would be 1, velociraptor would be 50>,
+"years": <million years since extinction>,
+"length": <length	in m>,
+"height": <height in m>,
+"weight": <weight in kg>,
+"number_skeletons": <number of skeletons found>,
+"number_teeth": <number of teeth>,
+"speed": <max speed in km/h>,
+"footprint": <footprint size in cm>,
+"nest_size": <nest diameter in cm>,
+"tooth_size": <tooth size of the largest tooth in cm>,
+"bite_force": <bite force in N>,
+"egg_size": <egg size in cm (large side)>,
+"brain_size": <brain size in cm³>,
+"jaw_size": <length of the jaw in cm>,
+"encephalization": <encephalization quotient rounded to one digit after the colon>
+*/
+
+const dinosaurs = [
     {
         "name": "Brachiosaurus",
         "group": "Large Sauropods",
