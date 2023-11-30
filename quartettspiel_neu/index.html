@@ -4,40 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quartett Spiel</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="quartettspiel\lib\jquery-3.7.1.min.js"></script>
-<!--     <script src="quartettspiel\script.js"></script> -->
+    <title>Dino Quartett</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Krona One"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/desktop.css">
 </head>
 
 <body>
-    <div class="whole_card">
-        <div class="banner">
-            <div class="group_number"><h1>H1</div>
-            <div class="name"><h1>Triceratops</h1></div>
-        </div>
-        <div class="picture"></div>
-        <div class="facts"></div>
-        <div class="attributes weight">
-            <div class="attributes_icon_container weight_icon">Weight</div>
-        </div>
-        <div class="attributes number_eggs">
-            <div class="attributes_icon_container number_eggs_icon">Eggs</div>
-        </div>
-        <div class="attributes speed">
-            <div class="attributes_icon_container speed_icon">Speed</div>
-        </div>
-        <div class="attributes iq">
-            <div class="attributes_icon_container iq_icon">Iq</div>
-        </div>
-        <div class="attributes number_skeletons">
-            <div class="attributes_icon_container number_skeletons_icon">Bones</div>
-        </div>
-        <div class="attributes jaw_size">
-            <div class="attributes_icon_container jaw_size_icon">Jaw Size</div>
-        </div>
-
+    <div id="wrapper">
+        <header>
+            <h1>Beste Dino-Quartett</h1>
+        </header>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="spiel.html">Spiel</a>
+            <a class="only-desktop" href="highscore.html">Highscore</a>
+            <a href="index.html">Startseite</a>
+        </nav>
+        <main>
+            <div id="cards-container"></div>
+        </main>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="script/dinosaur_data.js" defer></script>
+    <script src="script/main.js" defer></script>
 </body>
 
 </html>

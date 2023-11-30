@@ -1,4 +1,4 @@
-const data = [
+const dinosaurs = [
     {
         "name": "Brachiosaurus",
         "group": "Large Sauropods",
