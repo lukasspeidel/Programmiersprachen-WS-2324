@@ -14,10 +14,10 @@ function createCards() {
         <div class="whole_card">
             <div class="banner">
                 <div class="group_number primary_color_red">
-                    <h1>${dino.group_letter}</h1>
+                    <h1>${dino.group_letter}${dino["card number"]}</h1>
                 </div>
                 <div class="name">
-                    <h1>${dino.name}</h1>
+                    <h2>${dino.name}</h2>
                 </div>
             </div>
             <div class="picture">
@@ -40,7 +40,7 @@ function createCards() {
             <div class="attributes number_eggs">
                 <div class="attributes_description primary_color_red">
                     <div class="icon_container">
-                        <img src="${iconPath}number_eggs_icon.png" alt="Egg icon">
+                        <img src="${iconPath}number_eggs.png" alt="Egg icon">
                     </div>
                     <div class="actual_attribute">
                         <h3>Eggs</h3>
